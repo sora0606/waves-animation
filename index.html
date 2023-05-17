@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Waves Animation</title>
+    <script type="module" src="/src/main.ts"></script>
+  </head>
+  <body x-data="animation" class="bg-black max-w-[447px] mx-auto py-10">
+    <div data-target class="flex justify-end w-full h-4 scale-0 origin-right ml-auto pr-5">
+      <span class="relative block w-1.5 h-4 bg-white clip-path flex-keep">
+        <span class="absolute top-0 left-px w-full h-full bg-white clip-path"></span>
+      </span>
+      <span data-wave class="block w-4 h-4 bg-white clip-path-reverse">
+        <span class="absolute top-0 -left-px w-full h-full bg-white clip-path"></span>
+      </span>
+    </div>
+    <div class="reverse w-full h-auto pr-5">
+      <div data-target class="flex justify-end w-full h-4 scale-0 origin-right ml-auto">
+        <span class="relative block w-1.5 h-4 bg-white clip-path flex-keep">
+          <span class="absolute top-0 left-px w-full h-full bg-white clip-path"></span>
+        </span>
+        <span data-wave class="block w-4 h-4 bg-white clip-path-reverse">
+          <span class="absolute top-0 -left-px w-full h-full bg-white clip-path"></span>
+        </span>
+      </div>
+    </div>
+    <div data-target class="flex justify-end w-full h-4 scale-0 origin-right ml-auto pr-5">
+      <span class="relative block w-1.5 h-4 bg-white clip-path flex-keep">
+        <span class="absolute top-0 left-px w-full h-full bg-white clip-path"></span>
+      </span>
+      <span data-wave class="block w-4 h-4 bg-white clip-path-reverse">
+        <span class="absolute top-0 -left-px w-full h-full bg-white clip-path"></span>
+      </span>
+    </div>
+    <div class="reverse w-full h-auto pr-5">
+      <div data-target class="flex justify-end w-full h-4 scale-0 origin-right ml-auto">
+        <span class="relative block w-1.5 h-4 bg-white clip-path flex-keep">
+          <span class="absolute top-0 left-px w-full h-full bg-white clip-path"></span>
+        </span>
+        <span data-wave class="block w-4 h-4 bg-white clip-path-reverse">
+          <span class="absolute top-0 -left-px w-full h-full bg-white clip-path"></span>
+        </span>
+      </div>
+    </div>
+    <div data-target class="flex justify-end w-full h-4 scale-0 origin-right ml-auto pr-5">
+      <span class="relative block w-1.5 h-4 bg-white clip-path flex-keep">
+        <span class="absolute top-0 left-px w-full h-full bg-white clip-path"></span>
+      </span>
+      <span data-wave class="block w-4 h-4 bg-white clip-path-reverse">
+        <span class="absolute top-0 -left-px w-full h-full bg-white clip-path"></span>
+      </span>
+    </div>
+    <div class="reverse w-full h-auto pr-5">
+      <div data-target class="flex justify-end w-full h-4 scale-0 origin-right ml-auto">
+        <span class="relative block w-1.5 h-4 bg-white clip-path flex-keep">
+          <span class="absolute top-0 left-px w-full h-full bg-white clip-path"></span>
+        </span>
+        <span data-wave class="block w-4 h-4 bg-white clip-path-reverse">
+          <span class="absolute top-0 -left-px w-full h-full bg-white clip-path"></span>
+        </span>
+      </div>
+    </div>
+    <div data-target class="flex justify-end w-full h-4 scale-0 origin-right ml-auto pr-5">
+      <span class="relative block w-1.5 h-4 bg-white clip-path flex-keep">
+        <span class="absolute top-0 left-px w-full h-full bg-white clip-path"></span>
+      </span>
+      <span data-wave class="block w-4 h-4 bg-white clip-path-reverse">
+        <span class="absolute top-0 -left-px w-full h-full bg-white clip-path"></span>
+      </span>
+    </div>
+    <div class="reverse w-full h-auto pr-5">
+      <div data-target class="flex justify-end w-full h-4 scale-0 origin-right ml-auto">
+        <span class="relative block w-1.5 h-4 bg-white clip-path flex-keep">
+          <span class="absolute top-0 left-px w-full h-full bg-white clip-path"></span>
+        </span>
+        <span data-wave class="block w-4 h-4 bg-white clip-path-reverse">
+          <span class="absolute top-0 -left-px w-full h-full bg-white clip-path"></span>
+        </span>
+      </div>
+    </div>
+    <div data-target class="flex justify-end w-full h-4 scale-0 origin-right ml-auto pr-5">
+      <span class="relative block w-1.5 h-4 bg-white clip-path flex-keep">
+        <span class="absolute top-0 left-px w-full h-full bg-white clip-path"></span>
+      </span>
+      <span data-wave class="block w-4 h-4 bg-white clip-path-reverse">
+        <span class="absolute top-0 -left-px w-full h-full bg-white clip-path"></span>
+      </span>
+    </div>
+    <div class="reverse w-full h-auto pr-5">
+      <div data-target class="flex justify-end w-full h-4 scale-0 origin-right ml-auto">
+        <span class="relative block w-1.5 h-4 bg-white clip-path flex-keep">
+          <span class="absolute top-0 left-px w-full h-full bg-white clip-path"></span>
+        </span>
+        <span data-wave class="block w-4 h-4 bg-white clip-path-reverse">
+          <span class="absolute top-0 -left-px w-full h-full bg-white clip-path"></span>
+        </span>
+      </div>
+    </div>
+    <div data-target class="flex justify-end w-full h-4 scale-0 origin-right ml-auto pr-5">
+      <span class="relative block w-1.5 h-4 bg-white clip-path flex-keep">
+        <span class="absolute top-0 left-px w-full h-full bg-white clip-path"></span>
+      </span>
+      <span data-wave class="block w-4 h-4 bg-white clip-path-reverse">
+        <span class="absolute top-0 -left-px w-full h-full bg-white clip-path"></span>
+      </span>
+    </div>
+    <div class="reverse w-full h-auto pr-5">
+      <div data-target class="flex justify-end w-full h-4 scale-0 origin-right ml-auto">
+        <span class="relative block w-1.5 h-4 bg-white clip-path flex-keep">
+          <span class="absolute top-0 left-px w-full h-full bg-white clip-path"></span>
+        </span>
+        <span data-wave class="block w-4 h-4 bg-white clip-path-reverse">
+          <span class="absolute top-0 -left-px w-full h-full bg-white clip-path"></span>
+        </span>
+      </div>
+    </div>
+    <div data-target class="flex justify-end w-full h-4 scale-0 origin-right ml-auto pr-5">
+      <span class="relative block w-1.5 h-4 bg-white clip-path flex-keep">
+        <span class="absolute top-0 left-px w-full h-full bg-white clip-path"></span>
+      </span>
+      <span data-wave class="block w-4 h-4 bg-white clip-path-reverse">
+        <span class="absolute top-0 -left-px w-full h-full bg-white clip-path"></span>
+      </span>
+    </div>
+    <div class="reverse w-full h-auto pr-5">
+      <div data-target class="flex justify-end w-full h-4 scale-0 origin-right ml-auto">
+        <span class="relative block w-1.5 h-4 bg-white clip-path flex-keep">
+          <span class="absolute top-0 left-px w-full h-full bg-white clip-path"></span>
+        </span>
+        <span data-wave class="block w-4 h-4 bg-white clip-path-reverse">
+          <span class="absolute top-0 -left-px w-full h-full bg-white clip-path"></span>
+        </span>
+      </div>
+    </div>
+    <div data-target class="flex justify-end w-full h-4 scale-0 origin-right ml-auto pr-5">
+      <span class="relative block w-1.5 h-4 bg-white clip-path flex-keep">
+        <span class="absolute top-0 left-px w-full h-full bg-white clip-path"></span>
+      </span>
+      <span data-wave class="block w-4 h-4 bg-white clip-path-reverse">
+        <span class="absolute top-0 -left-px w-full h-full bg-white clip-path"></span>
+      </span>
+    </div>
+    <div class="reverse w-full h-auto pr-5">
+      <div data-target class="flex justify-end w-full h-4 scale-0 origin-right ml-auto">
+        <span class="relative block w-1.5 h-4 bg-white clip-path flex-keep">
+          <span class="absolute top-0 left-px w-full h-full bg-white clip-path"></span>
+        </span>
+        <span data-wave class="block w-4 h-4 bg-white clip-path-reverse">
+          <span class="absolute top-0 -left-px w-full h-full bg-white clip-path"></span>
+        </span>
+      </div>
+    </div>
+    <div data-target class="flex justify-end w-full h-4 scale-0 origin-right ml-auto pr-5">
+      <span class="relative block w-1.5 h-4 bg-white clip-path flex-keep">
+        <span class="absolute top-0 left-px w-full h-full bg-white clip-path"></span>
+      </span>
+      <span data-wave class="block w-4 h-4 bg-white clip-path-reverse">
+        <span class="absolute top-0 -left-px w-full h-full bg-white clip-path"></span>
+      </span>
+    </div>
+    <div class="reverse w-full h-auto pr-5">
+      <div data-target class="flex justify-end w-full h-4 scale-0 origin-right ml-auto">
+        <span class="relative block w-1.5 h-4 bg-white clip-path flex-keep">
+          <span class="absolute top-0 left-px w-full h-full bg-white clip-path"></span>
+        </span>
+        <span data-wave class="block w-4 h-4 bg-white clip-path-reverse">
+          <span class="absolute top-0 -left-px w-full h-full bg-white clip-path"></span>
+        </span>
+      </div>
+    </div>
+    <div data-target class="flex justify-end w-full h-4 scale-0 origin-right ml-auto pr-5">
+      <span class="relative block w-1.5 h-4 bg-white clip-path flex-keep">
+        <span class="absolute top-0 left-px w-full h-full bg-white clip-path"></span>
+      </span>
+      <span data-wave class="block w-4 h-4 bg-white clip-path-reverse">
+        <span class="absolute top-0 -left-px w-full h-full bg-white clip-path"></span>
+      </span>
+    </div>
+    <div class="reverse w-full h-auto pr-5">
+      <div data-target class="flex justify-end w-full h-4 scale-0 origin-right ml-auto">
+        <span class="relative block w-1.5 h-4 bg-white clip-path flex-keep">
+          <span class="absolute top-0 left-px w-full h-full bg-white clip-path"></span>
+        </span>
+        <span data-wave class="block w-4 h-4 bg-white clip-path-reverse">
+          <span class="absolute top-0 -left-px w-full h-full bg-white clip-path"></span>
+        </span>
+      </div>
+    </div>
+    <div data-target class="flex justify-end w-full h-4 scale-0 origin-right ml-auto pr-5">
+      <span class="relative block w-1.5 h-4 bg-white clip-path flex-keep">
+        <span class="absolute top-0 left-px w-full h-full bg-white clip-path"></span>
+      </span>
+      <span data-wave class="block w-4 h-4 bg-white clip-path-reverse">
+        <span class="absolute top-0 -left-px w-full h-full bg-white clip-path"></span>
+      </span>
+    </div>
+    <div class="reverse w-full h-auto pr-5">
+      <div data-target class="flex justify-end w-full h-4 scale-0 origin-right ml-auto">
+        <span class="relative block w-1.5 h-4 bg-white clip-path flex-keep">
+          <span class="absolute top-0 left-px w-full h-full bg-white clip-path"></span>
+        </span>
+        <span data-wave class="block w-4 h-4 bg-white clip-path-reverse">
+          <span class="absolute top-0 -left-px w-full h-full bg-white clip-path"></span>
+        </span>
+      </div>
+    </div>
+    <div data-target class="flex justify-end w-full h-4 scale-0 origin-right ml-auto pr-5">
+      <span class="relative block w-1.5 h-4 bg-white clip-path flex-keep">
+        <span class="absolute top-0 left-px w-full h-full bg-white clip-path"></span>
+      </span>
+      <span data-wave class="block w-4 h-4 bg-white clip-path-reverse">
+        <span class="absolute top-0 -left-px w-full h-full bg-white clip-path"></span>
+      </span>
+    </div>
+    <div class="reverse w-full h-auto pr-5">
+      <div data-target class="flex justify-end w-full h-4 scale-0 origin-right ml-auto">
+        <span class="relative block w-1.5 h-4 bg-white clip-path flex-keep">
+          <span class="absolute top-0 left-px w-full h-full bg-white clip-path"></span>
+        </span>
+        <span data-wave class="block w-4 h-4 bg-white clip-path-reverse">
+          <span class="absolute top-0 -left-px w-full h-full bg-white clip-path"></span>
+        </span>
+      </div>
+    </div>
+    <div data-target class="flex justify-end w-full h-4 scale-0 origin-right ml-auto pr-5">
+      <span class="relative block w-1.5 h-4 bg-white clip-path flex-keep">
+        <span class="absolute top-0 left-px w-full h-full bg-white clip-path"></span>
+      </span>
+      <span data-wave class="block w-4 h-4 bg-white clip-path-reverse">
+        <span class="absolute top-0 -left-px w-full h-full bg-white clip-path"></span>
+      </span>
+    </div>
+    <div class="reverse w-full h-auto pr-5">
+      <div data-target class="flex justify-end w-full h-4 scale-0 origin-right ml-auto">
+        <span class="relative block w-1.5 h-4 bg-white clip-path flex-keep">
+          <span class="absolute top-0 left-px w-full h-full bg-white clip-path"></span>
+        </span>
+        <span data-wave class="block w-4 h-4 bg-white clip-path-reverse">
+          <span class="absolute top-0 -left-px w-full h-full bg-white clip-path"></span>
+        </span>
+      </div>
+    </div>
+    <div data-target class="flex justify-end w-full h-4 scale-0 origin-right ml-auto pr-5">
+      <span class="relative block w-1.5 h-4 bg-white clip-path flex-keep">
+        <span class="absolute top-0 left-px w-full h-full bg-white clip-path"></span>
+      </span>
+      <span data-wave class="block w-4 h-4 bg-white clip-path-reverse">
+        <span class="absolute top-0 -left-px w-full h-full bg-white clip-path"></span>
+      </span>
+    </div>
+    <div class="reverse w-full h-auto pr-5">
+      <div data-target class="flex justify-end w-full h-4 scale-0 origin-right ml-auto">
+        <span class="relative block w-1.5 h-4 bg-white clip-path flex-keep">
+          <span class="absolute top-0 left-px w-full h-full bg-white clip-path"></span>
+        </span>
+        <span data-wave class="block w-4 h-4 bg-white clip-path-reverse">
+          <span class="absolute top-0 -left-px w-full h-full bg-white clip-path"></span>
+        </span>
+      </div>
+    </div>
+    <div data-target class="flex justify-end w-full h-4 scale-0 origin-right ml-auto pr-5">
+      <span class="relative block w-1.5 h-4 bg-white clip-path flex-keep">
+        <span class="absolute top-0 left-px w-full h-full bg-white clip-path"></span>
+      </span>
+      <span data-wave class="block w-4 h-4 bg-white clip-path-reverse">
+        <span class="absolute top-0 -left-px w-full h-full bg-white clip-path"></span>
+      </span>
+    </div>
+    <div class="reverse w-full h-auto pr-5">
+      <div data-target class="flex justify-end w-full h-4 scale-0 origin-right ml-auto">
+        <span class="relative block w-1.5 h-4 bg-white clip-path flex-keep">
+          <span class="absolute top-0 left-px w-full h-full bg-white clip-path"></span>
+        </span>
+        <span data-wave class="block w-4 h-4 bg-white clip-path-reverse">
+          <span class="absolute top-0 -left-px w-full h-full bg-white clip-path"></span>
+        </span>
+      </div>
+    </div>
+    <div data-target class="flex justify-end w-full h-4 scale-0 origin-right ml-auto pr-5">
+      <span class="relative block w-1.5 h-4 bg-white clip-path flex-keep">
+        <span class="absolute top-0 left-px w-full h-full bg-white clip-path"></span>
+      </span>
+      <span data-wave class="block w-4 h-4 bg-white clip-path-reverse">
+        <span class="absolute top-0 -left-px w-full h-full bg-white clip-path"></span>
+      </span>
+    </div>
+    <div class="reverse w-full h-auto pr-5">
+      <div data-target class="flex justify-end w-full h-4 scale-0 origin-right ml-auto">
+        <span class="relative block w-1.5 h-4 bg-white clip-path flex-keep">
+          <span class="absolute top-0 left-px w-full h-full bg-white clip-path"></span>
+        </span>
+        <span data-wave class="block w-4 h-4 bg-white clip-path-reverse">
+          <span class="absolute top-0 -left-px w-full h-full bg-white clip-path"></span>
+        </span>
+      </div>
+    </div>
+    <div data-target class="flex justify-end w-full h-4 scale-0 origin-right ml-auto pr-5">
+      <span class="relative block w-1.5 h-4 bg-white clip-path flex-keep">
+        <span class="absolute top-0 left-px w-full h-full bg-white clip-path"></span>
+      </span>
+      <span data-wave class="block w-4 h-4 bg-white clip-path-reverse">
+        <span class="absolute top-0 -left-px w-full h-full bg-white clip-path"></span>
+      </span>
+    </div>
+    <div class="reverse w-full h-auto pr-5">
+      <div data-target class="flex justify-end w-full h-4 scale-0 origin-right ml-auto">
+        <span class="relative block w-1.5 h-4 bg-white clip-path flex-keep">
+          <span class="absolute top-0 left-px w-full h-full bg-white clip-path"></span>
+        </span>
+        <span data-wave class="block w-4 h-4 bg-white clip-path-reverse">
+          <span class="absolute top-0 -left-px w-full h-full bg-white clip-path"></span>
+        </span>
+      </div>
+    </div>
+    <div data-target class="flex justify-end w-full h-4 scale-0 origin-right ml-auto pr-5">
+      <span class="relative block w-1.5 h-4 bg-white clip-path flex-keep">
+        <span class="absolute top-0 left-px w-full h-full bg-white clip-path"></span>
+      </span>
+      <span data-wave class="block w-4 h-4 bg-white clip-path-reverse">
+        <span class="absolute top-0 -left-px w-full h-full bg-white clip-path"></span>
+      </span>
+    </div>
+    <div class="reverse w-full h-auto pr-5">
+      <div data-target class="flex justify-end w-full h-4 scale-0 origin-right ml-auto">
+        <span class="relative block w-1.5 h-4 bg-white clip-path flex-keep">
+          <span class="absolute top-0 left-px w-full h-full bg-white clip-path"></span>
+        </span>
+        <span data-wave class="block w-4 h-4 bg-white clip-path-reverse">
+          <span class="absolute top-0 -left-px w-full h-full bg-white clip-path"></span>
+        </span>
+      </div>
+    </div>
+    <div data-target class="flex justify-end w-full h-4 scale-0 origin-right ml-auto pr-5">
+      <span class="relative block w-1.5 h-4 bg-white clip-path flex-keep">
+        <span class="absolute top-0 left-px w-full h-full bg-white clip-path"></span>
+      </span>
+      <span data-wave class="block w-4 h-4 bg-white clip-path-reverse">
+        <span class="absolute top-0 -left-px w-full h-full bg-white clip-path"></span>
+      </span>
+    </div>
+    <div class="reverse w-full h-auto pr-5">
+      <div data-target class="flex justify-end w-full h-4 scale-0 origin-right ml-auto">
+        <span class="relative block w-1.5 h-4 bg-white clip-path flex-keep">
+          <span class="absolute top-0 left-px w-full h-full bg-white clip-path"></span>
+        </span>
+        <span data-wave class="block w-4 h-4 bg-white clip-path-reverse">
+          <span class="absolute top-0 -left-px w-full h-full bg-white clip-path"></span>
+        </span>
+      </div>
+    </div>
+    <div data-target class="flex justify-end w-full h-4 scale-0 origin-right ml-auto pr-5">
+      <span class="relative block w-1.5 h-4 bg-white clip-path flex-keep">
+        <span class="absolute top-0 left-px w-full h-full bg-white clip-path"></span>
+      </span>
+      <span data-wave class="block w-4 h-4 bg-white clip-path-reverse">
+        <span class="absolute top-0 -left-px w-full h-full bg-white clip-path"></span>
+      </span>
+    </div>
+    <div class="reverse w-full h-auto pr-5">
+      <div data-target class="flex justify-end w-full h-4 scale-0 origin-right ml-auto">
+        <span class="relative block w-1.5 h-4 bg-white clip-path flex-keep">
+          <span class="absolute top-0 left-px w-full h-full bg-white clip-path"></span>
+        </span>
+        <span data-wave class="block w-4 h-4 bg-white clip-path-reverse">
+          <span class="absolute top-0 -left-px w-full h-full bg-white clip-path"></span>
+        </span>
+      </div>
+    </div>
+    <div data-target class="flex justify-end w-full h-4 scale-0 origin-right ml-auto pr-5">
+      <span class="relative block w-1.5 h-4 bg-white clip-path flex-keep">
+        <span class="absolute top-0 left-px w-full h-full bg-white clip-path"></span>
+      </span>
+      <span data-wave class="block w-4 h-4 bg-white clip-path-reverse">
+        <span class="absolute top-0 -left-px w-full h-full bg-white clip-path"></span>
+      </span>
+    </div>
+    <div class="reverse w-full h-auto pr-5">
+      <div data-target class="flex justify-end w-full h-4 scale-0 origin-right ml-auto">
+        <span class="relative block w-1.5 h-4 bg-white clip-path flex-keep">
+          <span class="absolute top-0 left-px w-full h-full bg-white clip-path"></span>
+        </span>
+        <span data-wave class="block w-4 h-4 bg-white clip-path-reverse">
+          <span class="absolute top-0 -left-px w-full h-full bg-white clip-path"></span>
+        </span>
+      </div>
+    </div>
+  </body>
+</html>
